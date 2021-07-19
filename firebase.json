@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/scrape-table",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
